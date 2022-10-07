@@ -47,7 +47,7 @@ class MainViewModel : ViewModel() {
     }
 
     fun initialiseSdk(context: Context) {
-        // Edit your configuration here
+        // TODO: Edit your configuration here
         val organisationID = ""
         Ribbon.configure(organisationID, context.applicationContext)
 //        To set User
@@ -66,7 +66,7 @@ class MainViewModel : ViewModel() {
                 error = result.error
             )
             StudyState.NoStudy -> MainPageUiModel.NoStudy
-            // This is to show the study detail can be accessed for customisation
+            // This is to show the study details can be accessed for internal analytics
             is StudyState.StudyReady -> MainPageUiModel.Success(
                 studyReady = result,
             )
