@@ -2,14 +2,16 @@
 
 ### Getting started
 
-This is the android sdk for integrating with the [Ribbon platform](https://ribbonapp.com/) in an Android App.
+This is the sample android app for integrating with the [Ribbon platform](https://ribbonapp.com/) android sdk.
 
 To import the library:
 ```gradle
-implementation("com.ribbon:android-sdk:0.0.1")
+implementation("com.ribbonapp:android-sdk:0.0.1-alpha02")
 ```
 
-## Sample App
+Please check [releases page](https://github.com/ribbontechnologies/ribbon-android/releases) for the latest release.
+
+## Running the App
 This repo includes a basic compose sample app to show how the sdk would work.
 
 **Please make sure to add your own account config in [here](https://github.com/ribbontechnologies/ribbon-android/blob/e4b8ab4b87e90cfdb21bb7b2770c89b3df554755/app/src/main/java/com/ribbonapp/sample/MainViewModel.kt#L51 "here") before running the app.**
