@@ -6,7 +6,7 @@ This is the android sdk for integrating with the [Ribbon platform](https://ribbo
 
 To import the library:
 ```gradle
-	implementation("com.ribbon:android-sdk:0.0.1")
+implementation("com.ribbon:android-sdk:0.0.1")
 ```
 
 ## Sample App
@@ -18,5 +18,6 @@ This repo includes a basic compose sample app to show how the sdk would work.
 At the moment we only use [retrofit](https://square.github.io/retrofit/ "retrofit") to do the network calls, everything else is google/android default libraries.
 
 ## Documentation / Links
-- [Ribbon Webpage](https://www.ribbonapp.com/ "Ribbon Webpage")
+- [Ribbon Android sdk](https://docs.ribbonapp.com/docs/mobile-android-sdk "Ribbon Android sdk")
 - [Documentation](https://docs.ribbonapp.com/docs "Documentation")
+- [Ribbon Webpage](https://www.ribbonapp.com/ "Ribbon Webpage")
