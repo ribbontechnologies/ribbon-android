@@ -1,6 +1,7 @@
 # Ribbon Android Sdk
 
 ### Getting started
+[sample_app_demo.webm](https://user-images.githubusercontent.com/111354857/195160991-83295df7-ece1-4851-ba2c-d06e0148ce55.webm)
 
 This is the sample android app for integrating with the [Ribbon platform](https://ribbonapp.com/) android sdk.
 
