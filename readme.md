@@ -1,7 +1,6 @@
-# Ribbon Android Sdk
+# Ribbon Android SDK
 
 ### Getting started
-[sample_app_demo.webm](https://user-images.githubusercontent.com/111354857/195160991-83295df7-ece1-4851-ba2c-d06e0148ce55.webm)
 
 This is the sample android app for integrating with the [Ribbon platform](https://ribbonapp.com/) android sdk.
 
@@ -19,6 +18,9 @@ This repo includes a basic compose sample app to show how the sdk would work.
 
 ## 3rd Party Libraries
 At the moment we only use [retrofit](https://square.github.io/retrofit/ "retrofit") to do the network calls, everything else is google/android default libraries.
+
+## Demo
+[sample_app_demo.webm](https://user-images.githubusercontent.com/111354857/195160991-83295df7-ece1-4851-ba2c-d06e0148ce55.webm)
 
 ## Documentation / Links
 - [Ribbon Android sdk](https://docs.ribbonapp.com/docs/mobile-android-sdk "Ribbon Android sdk")
