@@ -6,7 +6,7 @@ This is the sample android app for integrating with the [Ribbon platform](https:
 
 To import the library:
 ```gradle
-implementation("com.ribbonapp:android-sdk:0.0.1-alpha02")
+implementation("com.ribbonapp:android-sdk:(insert latest version)")
 ```
 
 Please check [releases page](https://github.com/ribbontechnologies/ribbon-android/releases) for the latest release.
