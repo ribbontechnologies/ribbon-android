@@ -1,0 +1,51 @@
+
+## RIBBON SDK LICENCE AGREEMENT 
+### VERSION 1.0
+
+This SDK Licence Agreement (Agreement) is a legal agreement between you (Licensee) and Ribbon Technologies Limited (Ribbon) for the Ribbon SDK accompanying this Agreement and any accompanying documentation or other materials made available to the Licensee (collectively the Ribbon SDK). Ribbon Technologies Limited is registered in England and Wales with company number 12911670 and has its registered office at 86-90 Paul Street, London EC2A 4NE.
+
+IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT AND WARRANT THAT YOU HAVE AUTHORITY TO BIND THAT ENTITY AND ALL USERS OF THE RIBBON SDK.  
+
+By installing, copying, or otherwise using the Ribbon SDK, the Licensee agrees to be bound by the terms of this Agreement. If the Licensee does not agree to the terms of this Agreement, the Licensee may not install, copy, or otherwise use the Ribbon SDK. In addition, by installing, copying, or otherwise using any updates or other components of the Ribbon SDK that the Licensee receives separately as part of the Ribbon SDK (Updates), the Licensee agrees to be bound by any additional licence terms that accompany such Updates, if any. If the Licensee does not agree to the additional licence terms that accompany such Updates, the Licensee may not install, copy, or otherwise use such Updates. 
+
+The Ribbon SDK is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The Ribbon SDK is licensed, not sold. 
+
+1.	Licensed rights
+1.1	Subject to the Licensee’s compliance with this Agreement and payment of the applicable Subscription Fees (as defined below), Ribbon grants to the Licensee a limited, non-exclusive, non-transferable, revocable, personal, non-sublicensable perpetual licence to reproduce and use the Ribbon SDK in order to install it within Licensee’s iOS and Android mobile applications (Authorised Applications) to enable them to interoperate with Ribbon’s platform at https://www.ribbonapp.com (Ribbon Services). The Licensee’s use of the Ribbon Services is governed by the then current Terms of Service located at https://www.ribbonapp.com/tos (unless the Licensee has separately entered into Ribbon’s Platform Services Agreement, in which event the terms of that agreement shall apply instead) and is subject to payment of the relevant subscription fees, as detailed at https://www.ribbonapp.com/plans (Subscription Fees). 
+1.2	Licensee shall have the right to copy or reproduce the Ribbon SDK, as necessary to install it within the Authorised Applications. The Licensee may make a reasonable number of copies of the Ribbon SDK for the purposes of installing it within Authorised Applications, provided that the Licensee may only reproduce complete copies (including without limitation all readme files, copyright notices and other legal notices and terms that Ribbon has included in the Ribbon SDK). The Licensee agrees that the Ribbon SDK is Ribbon’s confidential information and shall treat and handle confidential information in accordance with the confidentiality provisions of this Agreement. 
+1.3 	Support for Authorised Applications. Ribbon shall not be required to maintain, support or repair any Authorised Applications. Any assistance in repairing errors or defects in the Authorised Applications that Ribbon, in its sole discretion, may choose to provide shall be subject to the terms of a separate agreement. 
+
+2.	Licence restrictions
+Except as expressly provided in this Agreement, the Licensee shall not copy, publish, disclose, display, provide, transfer or make available the Ribbon SDK, or any derivatives thereof to any third party and shall not sublicense, transfer, or assign the Ribbon SDK, or its rights under this Agreement to any third party. The Licensee may not reverse engineer, decompile, distribute or disassemble the SDK, except and only to the extent that applicable law expressly permits; or (b) make more copies of the Ribbon SDK than specified in this Agreement, except and only to the extent applicable law expressly permits; or (c) publish the Ribbon SDK for others to copy; or (d) rent, lease or lend the Ribbon SDK. 
+
+3.	Warranty
+The Ribbon SDK is licensed to Licensee “as is”. To the maximum extent permitted by applicable law, Ribbon on behalf of itself and its suppliers expressly disclaim all warranties, conditions or other terms, whether express, implied or statutory, including without limitation, warranties, conditions or other terms regarding merchantability, fitness for a particular purpose, design, condition, capacity, performance, title, and non-infringement of any third party patents, copyrights, trade secrets or other intellectual property rights. 
+
+4.	Limitation of liability
+4.1	The Licensee acknowledges that the Ribbon SDK has not been developed to meet the Licensee’s individual requirements, including any particular cybersecurity requirements the Licensee might be subject to under law or otherwise, and that it is therefore the Licensee’s responsibility to ensure that the Ribbon SDK meets its requirements.
+4.2	In no event shall Ribbon or its licensors be liable for the following, regardless of the theory of liability or whether arising out of the use or inability to use the Ribbon SDK or otherwise, even if a party been advised of the possibility of such damages: (a) indirect, incidental, exemplary, special or consequential loss, damage, charges or expenses; (b) loss or corruption of data or information; (c) loss of business or business interruption; (d) loss of revenue, profits, sales or business; (e) loss of anticipated savings; (f) wasted expenditure; or (g) loss of business opportunity, goodwill or reputation.
+4.3	Ribbon, its affiliates, officers, directors, employees, agents, suppliers and licensors collectively, shall have no liability to the Licensee whatsoever, whether based in warranty, contract, tort (including negligence), or otherwise. 
+4.4	Nothing in this Agreement limits or excludes any liability that cannot be limited or excluded under applicable law. Both parties are in understanding that some jurisdictions do not allow the exclusion of liability for consequential damages and as so the above limitation may not apply.
+
+5.	Ownership
+5.1	Except for the limited licence rights expressly granted in this Agreement, Ribbon or its licensors retain ownership of all intellectual property rights in and to the Ribbon SDK and copies, improvements, enhancements, derivative works and modifications thereof. 
+5.2	The Licensee’s rights to use the Ribbon SDK are limited to those expressly granted by this Agreement. No other rights with respect to the Ribbon SDK or any related intellectual property rights are granted or implied. 
+5.3	The Licensee undertakes to: (a) treat as confidential and keep secret all confidential information contained or embodied in the Ribbon SDK and any confidential information conveyed to it in respect of the Ribbon SDK or through communication by any means; (b) effect and maintain adequate security measures to safeguard the Ribbon SDK from access or use by any unauthorised person.
+
+6.	Indemnification disclaimer
+For the avoidance of doubt, the Licensee acknowledges and agrees that Ribbon shall not be liable for any third party infringement claim that relates to or is based on the Licensee’s use of the Ribbon SDK or any derivatives thereof or the exercise of the Licensee’s rights under this Agreement.  
+
+7.	Term and Termination
+7.1	This Agreement is effective until terminated.  The Licensee may terminate it at any time by removing the Ribbon SDK from the Authorised Applications and its systems together with all copies in any form.
+7.2	Ribbon may terminate the Agreement at any time immediately upon written notice by Ribbon to Licensee if: (a) Licensee breaches this Agreement; (b) fails to pay the Subscription Fees; (c) becomes insolvent or is otherwise in Ribbon’s opinion unable to pay its debts; or (d) infringes Ribbon‘s intellectual property in or to the Ribbon SDK. 
+7.3	Effect of Termination. Upon termination or expiry of this Agreement for any reason, the Licensee’s right to make any further use of the Ribbon SDK ends and the Licensee must immediately delete the Ribbon SDK and any copies of the Ribbon SDK and any related materials in its possession or control. Termination of this Agreement shall not affect any Authorised Applications into which the Ribbon SDK has been installed up to the date of termination.
+ 
+8.	Injunctive relief
+Licensee acknowledges that the unauthorised use, transfer or disclosure of the Ribbon SDK or copies thereof will: (a) substantially diminish the value to Ribbon of the trade secrets and other proprietary interests that are the subject of this Agreement; (b) render Ribbon’s remedy at law for such unauthorised use, disclosure or transfer inadequate; and (c) cause irreparable injury in a short period of time. If Licensee breaches any of its obligations with respect to the use or confidentiality of the Ribbon SDK, Ribbon shall be entitled to equitable relief to protect its interests therein, including, but not limited to, preliminary and permanent injunctive relief.
+
+9.	Governing law and jurisdiction
+9.1	This Agreement and any disputes or claims arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) are governed by, and shall be construed in accordance with, the laws of England and Wales, without reference to its conflict of laws principles. 
+9.2	The parties irrevocably agree that the courts of England and Wales have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with this Agreement or its subject matter or formation (including non-contractual disputes or claims). 
+
+10.	Entire Agreement
+This Agreement constitutes the entire agreement between us and supersedes and extinguishes all previous and contemporaneous agreements, promises, assurances and understandings between us, whether written or oral, relating to its subject matter.  No variation of this Agreement shall be effective unless it is in writing and signed by the parties (or their authorised representatives).
