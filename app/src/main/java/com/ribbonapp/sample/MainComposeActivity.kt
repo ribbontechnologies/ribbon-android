@@ -14,16 +14,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.White
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.ribbon.sdk.Ribbon
-
-private val RibbonColor = Color(0xFF006AFA)
 
 class MainComposeActivity : AppCompatActivity() {
 
@@ -36,6 +34,7 @@ class MainComposeActivity : AppCompatActivity() {
     @Suppress("FunctionNaming", "LongMethod")
     @Composable
     private fun MainContent(viewModel: MainViewModel = viewModel()) {
+        val color = colorResource(id = R.color.ribbon_color)
         MaterialTheme {
             val state by viewModel.state.collectAsState(initial = null)
             when (state) {
@@ -68,7 +67,7 @@ class MainComposeActivity : AppCompatActivity() {
                 ) {
                     Button(
                         colors = ButtonDefaults.buttonColors(
-                            backgroundColor = RibbonColor,
+                            backgroundColor = color,
                             contentColor = White
                         ),
                         onClick = {
@@ -83,7 +82,7 @@ class MainComposeActivity : AppCompatActivity() {
                     }
                     Button(
                         colors = ButtonDefaults.buttonColors(
-                            backgroundColor = RibbonColor,
+                            backgroundColor = color,
                             contentColor = White
                         ),
                         onClick = {
