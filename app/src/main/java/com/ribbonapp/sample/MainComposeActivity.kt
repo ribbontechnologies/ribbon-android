@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.White
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -21,6 +22,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.ribbon.sdk.Ribbon
+
+private val RibbonColor = Color(0xFF006AFA)
 
 class MainComposeActivity : AppCompatActivity() {
 
@@ -64,7 +67,10 @@ class MainComposeActivity : AppCompatActivity() {
                     horizontalArrangement = Arrangement.SpaceEvenly,
                 ) {
                     Button(
-                        colors = ButtonDefaults.buttonColors(contentColor = White),
+                        colors = ButtonDefaults.buttonColors(
+                            backgroundColor = RibbonColor,
+                            contentColor = White
+                        ),
                         onClick = {
                             if (viewModel.isSdkInitialised()) {
                                 viewModel.trigger()
@@ -76,7 +82,10 @@ class MainComposeActivity : AppCompatActivity() {
                         Text(text = "trigger")
                     }
                     Button(
-                        colors = ButtonDefaults.buttonColors(contentColor = White),
+                        colors = ButtonDefaults.buttonColors(
+                            backgroundColor = RibbonColor,
+                            contentColor = White
+                        ),
                         onClick = {
                             viewModel.initialiseSdk(
                                 context = this@MainComposeActivity
