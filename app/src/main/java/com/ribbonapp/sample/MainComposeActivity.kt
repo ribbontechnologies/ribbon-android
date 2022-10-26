@@ -15,6 +15,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color.Companion.White
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -33,6 +34,7 @@ class MainComposeActivity : AppCompatActivity() {
     @Suppress("FunctionNaming", "LongMethod")
     @Composable
     private fun MainContent(viewModel: MainViewModel = viewModel()) {
+        val color = colorResource(id = R.color.ribbon_color)
         MaterialTheme {
             val state by viewModel.state.collectAsState(initial = null)
             when (state) {
@@ -64,7 +66,10 @@ class MainComposeActivity : AppCompatActivity() {
                     horizontalArrangement = Arrangement.SpaceEvenly,
                 ) {
                     Button(
-                        colors = ButtonDefaults.buttonColors(contentColor = White),
+                        colors = ButtonDefaults.buttonColors(
+                            backgroundColor = color,
+                            contentColor = White
+                        ),
                         onClick = {
                             if (viewModel.isSdkInitialised()) {
                                 viewModel.trigger()
@@ -76,7 +81,10 @@ class MainComposeActivity : AppCompatActivity() {
                         Text(text = "trigger")
                     }
                     Button(
-                        colors = ButtonDefaults.buttonColors(contentColor = White),
+                        colors = ButtonDefaults.buttonColors(
+                            backgroundColor = color,
+                            contentColor = White
+                        ),
                         onClick = {
                             viewModel.initialiseSdk(
                                 context = this@MainComposeActivity
