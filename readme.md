@@ -20,7 +20,8 @@ This repo includes a basic compose sample app to show how the sdk would work (se
 At the moment we only use [retrofit](https://square.github.io/retrofit/ "retrofit") to do the network calls, everything else is google/android default libraries.
 
 ## Demo
-[sample_app_demo.webm](https://user-images.githubusercontent.com/111354857/195160991-83295df7-ece1-4851-ba2c-d06e0148ce55.webm)
+
+[sample_app_demo.webm](https://user-images.githubusercontent.com/111354857/198976124-c1d8818d-864c-4625-8843-e93f1b40f0ae.webm)
 
 ## Documentation / Links
 - [Ribbon Android sdk](https://docs.ribbonapp.com/docs/mobile-android-sdk "Ribbon Android sdk")
