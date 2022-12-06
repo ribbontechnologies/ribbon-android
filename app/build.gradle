@@ -43,7 +43,7 @@ android {
 dependencies {
 
     //SDK import
-    implementation("com.ribbonapp:android-sdk:1.0.0-beta02")
+    implementation("com.ribbonapp:android-sdk:1.0.0")
 
     // sample dependencies - start
     def lifecycle_version = "2.5.1"
