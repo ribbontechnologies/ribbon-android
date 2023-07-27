@@ -1,12 +1,14 @@
 package com.ribbonapp.sample
 
-import android.content.Context
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
+import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ribbon.sdk.Ribbon
 import com.ribbon.sdk.StudyStateCallback
+import com.ribbon.sdk.model.FontConfiguration
+import com.ribbon.sdk.model.FontConfigurationTypeface
 import com.ribbon.sdk.model.StudyState
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
@@ -46,10 +48,33 @@ class MainViewModel : ViewModel() {
         }
     }
 
-    fun initialiseSdk(context: Context) {
+    fun initialiseSdk(context: FragmentActivity) {
         // TODO: Edit your configuration here
         val organisationID = ""
-        Ribbon.configure(organisationID, context.applicationContext)
+
+        // This is how you would set the font using resources,
+        // This is an example using the different fonts that we use
+        // all arguments are optional
+        val fontConfiguration = FontConfiguration(
+            title = R.font.crimson_text_bold,
+            body = R.font.crimson_text_regular,
+            callouts = R.font.crimson_text_italic,
+            button = R.font.crimson_text_semi_bold_italic
+        )
+        // This is how you would set the font using assets, from the assets folder
+        // please specify if you have any folders e.g. if the path to the fonts in your assets is
+        // assets/fonts/title/my_title_font.ttf then parse through /fonts/title/my_title_font.ttf
+        // for the title parameter
+
+        val fontConfigurationTypeface = FontConfigurationTypeface(
+            title = "fonts/title/crimson_text_bold.ttf",
+            body = "fonts/body/crimson_text_regular.ttf",
+            callouts = "crimson_text_italic.ttf",
+            button = "crimson_text_semi_bold_italic.ttf",
+        )
+        // Configure now takes the different font configuration as an argument, so the below would work too
+        Ribbon.configure(organisationID, context, fontConfigurationTypeface)
+        // Ribbon.configure(organisationID, context, fontConfiguration)
 //        To set User
 //        Ribbon.setIdentity("enter user here")
 //        To enable preview mode, it's false by default
@@ -70,6 +95,10 @@ class MainViewModel : ViewModel() {
             is StudyState.StudyReady -> MainPageUiModel.Success(
                 studyReady = result,
             )
+
+            else -> {
+                MainPageUiModel.NoStudy
+            }
         }
     }
 }
